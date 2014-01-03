@@ -17,6 +17,7 @@ body {
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
+  text-outline: 2px 2px #ffffff;
 }
 
 /* Side Menu */
@@ -111,7 +112,8 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  /*background: url(../img/bg.jpg) no-repeat center center fixed; */
+  background: url(../img/hike.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -122,6 +124,10 @@ body {
 
 .intro {
   padding: 50px 0;
+}
+
+.lead {
+  /*text-align: left;*/
 }
 
 /* Services */
@@ -192,7 +198,7 @@ i.service-icon {
 /* Map */
 
 .map {
-  height: 500px;
+  /*height: 500px;*/
 }
 
 /* Footer */
